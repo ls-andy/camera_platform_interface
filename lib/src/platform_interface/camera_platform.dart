@@ -55,6 +55,7 @@ abstract class CameraPlatform extends PlatformInterface {
     CameraDescription cameraDescription,
     ResolutionPreset? resolutionPreset, {
     bool enableAudio = false,
+    double aspectRatio = 0.0,
   }) {
     throw UnimplementedError('createCamera() is not implemented.');
   }
